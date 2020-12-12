@@ -1,0 +1,35 @@
+.App {
+  height:100vh;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 60px auto;
+  grid-template-areas: 
+    "header"
+    "main";
+}
+
+.header {
+  grid-area: header;
+  background: #9cc3f5;
+}
+
+.header.small {
+  background: #cc9cec;
+}
+
+.content {
+  grid-area: main;
+  background: #ececec;
+}
+
+@media (max-width: 576px) {
+  .header.regular {
+    display: none;
+  }
+}
+
+@media (min-width: 577px) {
+  .header.small {
+    display: none;
+  }
+}

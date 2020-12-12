@@ -1,0 +1,29 @@
+
+{
+  "name": "cra-template-ts-redux-express",
+  "version": "1.1.1",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "redux",
+    "typescript",
+    "prettier"
+  ],
+  "description": "A template for Create React App creating Redux Toolkit enabled React served by Express.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/howlowck/cra-template-ts-redux-express.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "bugs": {
+    "url": "https://github.com/howlowck/cra-template-ts-redux-express/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
